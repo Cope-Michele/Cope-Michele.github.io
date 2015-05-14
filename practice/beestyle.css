@@ -1,0 +1,137 @@
+
+
+/*READ THESE NOTES!*/
+
+/*This document is filled with instructions/help in the form of comments*/
+
+/*This is how you write a CSS comment*/
+
+/*It is suggested that you work through this assignment by following the comments/prompts in this CSS file from top to bottom*/
+
+/*You will use Class selectors on the following two rules*/
+
+	/*Take a look at the declaration (property: value;) of the following rule. Find the 
+	two elements in the screenshot that are both syled with a yellow background. Notice 
+	that the screenshot provides you with the declaration (property: value;) that should 
+	be used in this CSS document. You will need to insert the class name showme into the 
+	appropriate opening tags in the HTML file (see page 184 for more information about 
+	class attributes)*/
+
+	.showme{
+
+		background-color: yellow;
+
+	}
+
+	/*NOTICE that this rule should be a class, but it is missing the class name. You will 
+	need to choose a name, make it something descriptive, for this class selector. You will 
+	also need to insert this class into the HTML*/
+
+	.uppercase{
+
+		text-transform: uppercase;
+
+	}
+
+/*The following three rules should use ID selectors*/
+
+	/*You will need to give these ID selectors names, and place the ids into the correct 
+	places in the HTML. Use the screenshot to determine what tag these IDs need to be 
+	placed on (see page 183 for more information about ID attributes). */
+
+	#purple{
+
+		color: purple;
+
+	}
+
+	/*This will change the Harvesting text color*/
+
+	#red{
+
+		color: red;
+
+	}
+
+	#brown{
+
+		color: brown;
+
+	}
+
+/*The following two rules should use Type Selectors. Type selectors are just the keywords 
+used in the HTML tags. For instance a paragraph tag looks like this <p>, and the 
+correlating CSS Type Selector would just be p (see page 238 for more information about 
+Type Selectors)*/
+
+	/*You will need to insert the correct type selector for the next two rules*/
+
+	header{
+		border: dashed 1px green;
+
+	}
+
+	/*By default this will change your document to have all the paragraphs to be blue. 
+	A rule further down this page will change the color of the Production paragraph text 
+	to be green. Don't be confused when your document doesn't match the screenshot exactly 
+	just yet.*/
+
+	p{
+
+		color: blue;
+
+	}
+
+/*The following two rules should use a mix of selectors (ex: #someid p - which would grab 
+all paragraphs inside the element with the id of someid). This will require you to 
+understand how to read the selectors. Reference the "How to Read CSS Selectors" page in 
+the Week 4 Day 1 iLearn folder. Another good reference would be page 238 of the book, 
+which will describe the different types of selectors.*/
+
+	/*You will need to insert a class named "bolded" into the HTML. */
+
+	li .bolded{
+
+		font-weight: bold;
+
+	}
+
+	/*You will need to insert an id into the HTML named "production-section" This has been 
+	named to describe the element it should be placed on. */
+
+	#production-section p{
+
+		color: green;
+
+	}
+
+/*The following three rules should use more advanced selectors. The exact selector type is
+outlined below.*/
+
+	/*Use a Child selector for the following (see page 238 for more information about 
+	Child Selectors). This rule will change the links text color.*/
+
+	li>a{
+
+		color: red;
+
+	}
+
+	/*Use an Adjacent sibling selector for the following. The adjacent sibling selector 
+	matches an element that is the next sibling of another.*/
+
+	h1+p{
+
+		padding-left: 20px;
+
+	}
+
+	/*nth-child (This is not in your reading, but Google how it works. */
+
+		li:nth-child(2){
+
+		padding: 10px;
+
+	}
+
+
