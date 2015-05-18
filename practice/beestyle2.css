@@ -14,6 +14,9 @@ body{
 	/* Set the default font size for the body text below this comment. Reference the 
 	screenshot to know what size to make this text. Use "em" for font size. */
 	font-size: .8em;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 
 }
 
@@ -60,11 +63,13 @@ header h1{
 select them." These are more specific so that other list on the page won't be styled 
 the same */
 
-nav ul {
+.header-nav ul {
 
 	/* Write a declaration (property: value;) below this comment to change the background 
 	color of this <ul> using a hex color. You will need to use Photoshop to eyedrop this 
 	color from the screenshot. */
+	
+	list-style-type: none;
 	
 	width: 20px;
 	
@@ -73,10 +78,12 @@ nav ul {
 	padding-top: 45px;
 	
 	background-color: #f2cc0f;
+	
+	border: 2px solid rgb(151,130,65);
 
 }
 
-nav li{
+.header-nav li{
 
 	/* Write a declaration (property: value;) below this comment to change the background 
 	color of the <li>s using an rgba color. You will need to use Photoshop to eyedrop 
@@ -87,13 +94,15 @@ nav li{
 	
 	padding: 6px;
 	
-	padding-left: 30px;
+	padding-left: 10px;
 	
 	margin-bottom: 7px;
 	
-	margin-left: -8px;
-		
-	background-color: rgba(151,130,65,.8)
+	margin-left: -5px;
+	
+	background-color: rgba(151,130,65,.8);
+	
+	box-shadow: -3px -3px #000000;
 }
 
 /*==============LINK STYLE============*/
@@ -120,7 +129,27 @@ nav a:active {
 /*==============MAIN STYLE============*/
 
 /*use the screenshot to make the appropriate changes to these elements*/
-
+.bees-and-blossoms{
+	background-color: #f2cc0f;
+	padding: 30px;
+	border: 2px solid rgb(151,130,65);
+	margin-bottom: -20px;
+}
+.bees{
+	background-color: #f9febe;
+	padding: 30px;
+	border: 1px solid rgb(151,130,65);
+	margin-top: 50px;
+}
+.blossoms{
+	height: 500px;
+	background-color: #f9febe;
+	padding: 30px;
+	border: 1px solid rgb(151,130,65);
+	margin-top: 30px;
+	margin-bottom: 30px;
+	overflow: scroll;
+}
 h2{
 	font-size: 14px;
 	font-style: italic;
@@ -129,10 +158,33 @@ h2{
 section h2{
 	font-size: 20px;
 	font-style: normal;
+	background-color: #ffffff;
+	padding: 10px;
+	margin-right: 765px;
+	border: 1px solid rgb(151,130,65);
+	border-top-left-radius: 20px 20px;
+	border-top-right-radius: 20px 20px;
+	border-bottom-left-radius: 20px 20px;
 }
 
+section.bees h2{
+	margin-right: 815px;	
+}
+
+.footer-nav li{
+	font-weight: bold;
+	text-decoration: underline;
+	list-style-type: none;
+	display: inline;
+	padding-right: 15px;
+}
 footer{
+	color: #fff7a0;
 	text-align: center;
+	background-color: rgb(151,130,65);
+	padding: 10px;
+	border-bottom-right-radius: 25px 25px;
+	border-bottom-left-radius: 25px 25px;
 }
 
 
