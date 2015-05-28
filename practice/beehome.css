@@ -101,6 +101,7 @@ blockquote{
 	margin-left: auto;
 	margin-right: auto;
 	width: 500px;
+	padding-bottom: 100px; 
 }
 footer{
 	background-color: #52471b;
