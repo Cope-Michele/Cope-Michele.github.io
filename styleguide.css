@@ -13,7 +13,7 @@
 	background-color: #000000;
 }	
 #swatch4{
-	background-color: #33CCCC;
+	background-color: #339999;
 }		
 
 /* ----------------------------------------------------- */
@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6{
 	/* other styles */
 }
 #mainnav a:hover{
-	color: #33CCCC;
+	color: #339999;
 	/* other styles */
 }
 #mainnav a:active{
@@ -82,7 +82,7 @@ h1,h2,h3,h4,h5,h6{
 	/* other styles */
 }
 #maisecondnavnnav a:hover{
-	color: #33CCCC;
+	color: #339999;
 	/* other styles */
 }
 #secondnav a:active{
