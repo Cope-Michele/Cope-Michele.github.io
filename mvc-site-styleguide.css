@@ -1,7 +1,7 @@
 body{
 	font-family: 'Josefin Sans', sans-serif;
 	background-color: #339999;
-	font-size: 1.2em;
+	font-size: 1em;
 	color: #ffffff;
 	text-align: center;
 	min-width: 800px;
@@ -19,6 +19,9 @@ a {
 	list-style-type: none;
 	text-decoration: none;
 	color: #ffffff;
+	-webkit-transition: font-size ease .2s;
+  -moz-transition: font-size ease .2s;
+  -o-transition: font-size ease .2s;
 }
 
 nav a:link {
@@ -31,9 +34,8 @@ nav a:visited {
 }
 
 nav a:hover {
-	color: #ffffff;
 	font-size: 1.3em;
-	width: 200px;
+	color: #ffffff;
 }
 
 nav a:active {
@@ -69,10 +71,16 @@ footer{
 	margin-top: -20px;
 }
 
+.bounce{
+	-moz-animation-name: bounce;
+  -moz-animation-duration: 2s;	
+}
+
 #slogan{
 	position: relative;
 	margin-top: -130px;
 	padding-right: 60px;
+	font-size: 1.3em;
 }
 
 #mini-logo{
@@ -93,3 +101,10 @@ figure{
 	margin-right: auto;
 	margin-left: 305px;
 }
+
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+  40% {-moz-transform: translateY(-30px);}
+  60% {-moz-transform: translateY(-15px);}
+}
+
