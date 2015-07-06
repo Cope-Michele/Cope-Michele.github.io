@@ -24,10 +24,6 @@ a {
 	list-style-type: none;
 	text-decoration: none;
 	color: #ffffff;
-	-webkit-transition: font-size ease .2s;
-  -moz-transition: font-size ease .2s;
-  -o-transition: font-size ease .2s;
-	transition: font-size ease .2s;
 }
 
 nav a:link {
@@ -73,7 +69,7 @@ nav a:active {
 .footer-nav li{
 	display: inline;
 	padding: 30px;
-	margin-bottom: -30;
+	margin-bottom: -30px;
 }
 
 footer{
@@ -195,14 +191,14 @@ input#submit-button{
 /*----------------------------*/
 
 .bounce{
-	-moz-animation-name: bounce;
-  -moz-animation-duration: 2s;	
+    -moz-animation-name: bounce;
+    -moz-animation-duration: 2s;	
 	-webkit-animation-name: bounce;
-  -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
 	-o-animation-name: bounce;
-  -o-animation-duration: 2s;
-	animation-name: bounce;
-  animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-name: bounce;
+    animation-duration: 2s;
 }
 
 /*----------------------------*/
