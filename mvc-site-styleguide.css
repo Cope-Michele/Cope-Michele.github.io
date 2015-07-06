@@ -1,14 +1,18 @@
+/*----------------------------*/
+/*----------- MAIN -----------*/
+/*----------------------------*/
+
 body{
 	font-family: 'Josefin Sans', sans-serif;
 	background-color: #339999;
 	font-size: 1em;
+	letter-spacing: 1px;
 	color: #ffffff;
 	text-align: center;
-	min-width: 800px;
+	min-width: 850px;
 	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 30px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -22,6 +26,7 @@ a {
 	-webkit-transition: font-size ease .2s;
   -moz-transition: font-size ease .2s;
   -o-transition: font-size ease .2s;
+	transition: font-size ease .2s;
 }
 
 nav a:link {
@@ -42,6 +47,10 @@ nav a:active {
 	color: #ffffff;
 }
 
+/*----------------------------*/
+/*---------- HEADER ----------*/
+/*----------------------------*/
+
 .header-nav li{
 	display: inline;
 	font-family: 'Cardo', serif;
@@ -50,13 +59,15 @@ nav a:active {
 	padding: 20px;
 }
 
-#second-nav{
+#second-nav{ /* Navigation for Subpages */
 	margin-top: -60px;
+	margin-bottom: 100px;
+	padding-right: 30px;
 }
 
-footer{
-	margin-top: 100px;
-}
+/*----------------------------*/
+/*---------- FOOTER ----------*/
+/*----------------------------*/
 
 .footer-nav li{
 	display: inline;
@@ -64,47 +75,163 @@ footer{
 }
 
 #gallery-footer{
-	margin-top: 650px;
+
 }
 
-#logo{
-	margin-top: -20px;
-}
-
-.bounce{
-	-moz-animation-name: bounce;
-  -moz-animation-duration: 2s;	
-}
-
-#slogan{
+footer{
 	position: relative;
-	margin-top: -130px;
-	padding-right: 60px;
-	font-size: 1.3em;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.3;
+	padding: 20px;
+	margin-bottom: -30px;
 }
 
+/*----------------------------*/
+/*---------- CONTENT ---------*/
+/*----------------------------*/
+
+/*homepage*/
+#logo{
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+/*subpage-navigation*/
 #mini-logo{
 	position: relative;
 	top: 70px;
 }
 
-figure{
-	margin-top: 100px;
-	float: left;
+/*gallery home page*/
+#gallery-nav{
+	width: 670px;
 	margin-left: auto;
-	margin-right: auto;
-	padding: 5px;
+	margin-right: auto;	
 }
 
-#graphic-design{
+figure{
+	float: left;
+	margin: 0px;
+	padding: 2px;
+
+}
+
+#gallery-space{
+	margin-top: 600px;
+}
+
+/*contact page*/
+#form-space{
+	margin-top: 100px;
+}
+
+#contact-form{
+	height: 500px;
+	width: 400px;
+	padding: 60px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-left: 305px;
+	background-color: #FFFFFF;
+	color: #339999;
+	font-size: 1.2em;
+	letter-spacing: 1.5px;
+	text-align: left;
+	border-radius: 3px 3px;
 }
+
+input{
+	width:390px;
+	display:block;
+	border: 1px solid #777777;
+	height: 20px;
+}
+
+textarea{
+	width:390px;
+	display:block;
+	border: 1px solid #777777;
+	height: 200px;
+}
+
+input#submit-button{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1em;
+	width: 150px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #777;
+	color: white;
+	border: none;	
+}
+
+/*about page*/
+#about-me{
+	float: left;
+	width: 250px;
+	margin-left: 300px;
+	margin-right: 40px;
+	text-align: justify;
+}
+
+#about-photo{
+	width: 400px;
+	float: left;
+}
+
+#important{
+	position: relative;
+	top: 8px;
+	left: 20px;
+	font-family: "Cardo", serif;
+	color: #333333;
+}
+
+#about-space{
+	margin-top: 1030px;
+}
+
+/*----------------------------*/
+/*------- TRANSITIONS --------*/
+/*----------------------------*/
+
+.bounce{
+	-moz-animation-name: bounce;
+  -moz-animation-duration: 2s;	
+	-webkit-animation-name: bounce;
+  -webkit-animation-duration: 2s;
+	-o-animation-name: bounce;
+  -o-animation-duration: 2s;
+	animation-name: bounce;
+  animation-duration: 2s;
+}
+
+/*----------------------------*/
+/*-------- ANIMATIONS --------*/
+/*----------------------------*/
 
 @-moz-keyframes bounce {
 	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
   40% {-moz-transform: translateY(-30px);}
   60% {-moz-transform: translateY(-15px);}
+}
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+  40% {-webkit-transform: translateY(-30px);}
+  60% {-webkit-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+  40% {-o-transform: translateY(-30px);}
+  60% {-o-transform: translateY(-15px);}
+}
+
+keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
 }
 

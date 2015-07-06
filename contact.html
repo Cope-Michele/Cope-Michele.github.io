@@ -11,7 +11,7 @@
             <header>
                 <nav class="header-nav" id="second-nav">
                     <ul>
-                        <li><a href="about.html">about</a></li>
+                        <li><a href="index.html">about</a></li>
                         <li><a href="gallery.html">gallery</a></li>
                         <li>
                             <a href="index.html">
@@ -25,36 +25,23 @@
             </header>
         </div>
         
-        <div id="gallery-nav">
-            <figure class="zoom" id="graphic-design">
-                <a href="graphic-design.html">
-                    <img src="images/graphic-design-window.jpg"></img>
-                </a>
-            <figcaption>
-                <a href="graphic-design.html">Graphic Design</a>
-            </figcaption>
-            </figure>
-        
-            <figure class="zoom" id="sculpture">
-                <a href="sculpture.html">
-                    <img src="images/sculpture-window.jpg"></img>
-                </a>
-            <figcaption>
-                <a href="graphic-design.html">Sculpture</a>
-            </figcaption>
-            </figure>
+        <form id="contact-form" action="Cope-Michele.github.io/email.php" method="POST">
+	       <div class="row">
+		      <p>name:</p>
+		      <input id="name" class="input" name="name" type="text"/><br/>
+	       </div>
+	       <div class="row">
+		      <p>email address:</p>
+		      <input id="email" class="input" name="email" type="text"/><br/>
+	       </div>
+	       <div class="row">
+		      <p>message:</p>
+		      <textarea id="message" class="input" name="message"></textarea><br/>
+	       </div>
+	       <input id="submit-button" type="submit" name="send it" value="send it"/>
+        </form>    
 
-            <figure class="zoom" id="fine-art">
-                <a href="fine-art.html">
-                    <img src="images/fine-art-window.jpg"></img>
-                </a>
-            <figcaption>
-                <a href="graphic-design.html">Fine Art</a>
-            </figcaption>
-            </figure>
-        </div>
-
-        <p id="gallery-space"></p>
+        <p id="form-space"></p>
 
         <div class="footer">
             <footer>
