@@ -119,7 +119,7 @@ footer{
 	background-color: black;
 	opacity: 0.2;
 	padding: 10px;
-	margin-bottom: -10px;
+	margin-bottom: -30px;
 }
 
 footer p{
@@ -235,6 +235,157 @@ input#submit-button{
 #resume{
 	margin-top: -65px;
 	margin-bottom: 85px;
+}
+
+/*sub-gallery*/
+#sculpture{
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#sculpture-intro{
+	width: 400px;
+	margin-top: 70px;
+	text-align: right;
+	position: absolute;
+}
+
+#sculpture-mediums{
+	width: 400px;
+	margin-top: 30px;
+	margin-left: 425px;
+	margin-bottom: 30px;
+	text-align: left;	
+}
+
+#clay-falcon{
+	margin-top: 40px;
+	margin-left: 400px;
+}
+
+#falcon-work{
+	position: absolute;
+	margin-top: 275px;
+	margin-left: -820px;
+}
+
+#falcon-finish{
+	margin-top: -80px;
+	margin-left: -420px;
+	position: absolute;
+}
+
+#falcon-front{
+	position: absolute;
+}
+
+#falcon-left{
+	position: absolute;
+	margin-top: 400px;
+	margin-left: -420px;
+}
+
+#falcon-show{
+	position: absolute;
+	margin-top: 558px
+}
+
+#sculpture-space{
+	margin-top: 1000px;
+}
+
+#graphic-design{
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+#cycle-cover{
+	float: left;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+#design-intro{
+	text-align: left;
+	margin-top: 70px;
+	margin-left: 620px;
+}
+
+#cycle-signup{
+	float: right;
+	margin-bottom: 20px;
+}
+
+#design-showcase{
+	text-align: right;
+	margin-top: 60px;
+	margin-right: 620px;
+}
+
+#cycle-calendar{
+	margin-bottom: 15px;
+}
+
+#cycle-quicklook{
+	width: 600px;
+	float: left;
+}
+
+#graphic-design-space{
+	margin-bottom: 410px;
+}
+
+/*Fine Art*/
+.sub-gallery h2{
+	margin-bottom: 40px;
+}
+
+#fine-art{
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#fine-art-intro{
+	float: left;
+	text-align: right;
+	width: 200px;
+	margin-top: 160px;
+	margin-left: 15px;
+}
+
+#brothers{
+	margin-right: 15px;
+}
+
+#boat{
+	float: right;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+
+#charcoal-sketch{
+	margin-right: 15px;
+}
+
+#dentist{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	float: left;
+}
+
+#fine-art-closing{
+	text-align: left;
+	margin-top: 100px;
+}
+
+#fine-art-space{
+	margin-bottom: 120px;
 }
 
 /*----------------------------*/
