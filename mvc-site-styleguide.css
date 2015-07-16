@@ -35,6 +35,7 @@ h1,h2,h3,h4,h5,h6{
 	letter-spacing: 3px;
 }
 
+/* link styles */
 a {
 	list-style-type: none;
 	text-decoration: none;
@@ -80,9 +81,11 @@ menu a:active {
 .sub-gallery menu a:active {
 	color: #339999;
 }
+
 /*----------------------------*/
 /*---------- HEADER ----------*/
 /*----------------------------*/
+
 header{
 	margin-bottom: 60px;
 }
@@ -237,7 +240,7 @@ input#submit-button{
 	margin-bottom: 85px;
 }
 
-/*sub-gallery*/
+/*sculpture pages*/
 #sculpture{
 	width: 850px;
 	margin-left: auto;
@@ -295,6 +298,7 @@ input#submit-button{
 	margin-top: 1000px;
 }
 
+/*graphic design page*/
 #graphic-design{
 	width: 850px;
 	margin-left: auto;
@@ -338,7 +342,7 @@ input#submit-button{
 	margin-bottom: 410px;
 }
 
-/*Fine Art*/
+/*fine art*/
 .sub-gallery h2{
 	margin-bottom: 40px;
 }
@@ -403,39 +407,6 @@ input#submit-button{
     animation-duration: 2s;
 }
 
-.zoom{
-  -webkit-transform: scale(1, 1); 
-  -webkit-transition-duration: 500ms;
-  -webkit-transition-timing-function: ease-out;
- 
- 
-  -moz-transform: scale(1, 1);
-  -moz-transition-duration: 500ms;
-  -moz-transition-timing-function: ease-out;
- 
-
-  -ms-transform: scale(1, 1);
-  -ms-transition-duration: 500ms;
-  -ms-transition-timing-function: ease-out;
-}
-
-.zoom:hover {
-  
-  -webkit-transform: scale(1.06, 1.06); // This is the enlarged size scale of the image.
-  -webkit-transition-duration: 1000ms;
-  -webkit-transition-timing-function: ease-out;
- 
-  
-  -moz-transform: scale(1.06, 1.06);
-  -moz-transition-duration: 1000ms;
-  -moz-transition-timing-function: ease-out;
- 
- 
-  -ms-transform: scale(1.06, 1.06);
-  -ms-transition-duration: 1000ms;
-  -ms-transition-timing-function: ease-out;
-}
-
 /*----------------------------*/
 /*-------- ANIMATIONS --------*/
 /*----------------------------*/
@@ -463,4 +434,5 @@ keyframes bounce {
   40% {transform: translateY(-30px);}
   60% {transform: translateY(-15px);}
 }
+
 
