@@ -99,7 +99,8 @@ header{
 	padding: 30px;
 }
 
-#second-nav{ /* Navigation for Subpages */
+/* Navigation for Subpages */
+#second-nav{ 
 	margin-top: -60px;
 	margin-left: -40px;
 	margin-bottom: 100px;
@@ -147,6 +148,13 @@ footer p{
 }
 
 /*gallery home page*/
+#gallery-page{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
 #gallery-nav{
 	width: 670px;
 	margin-left: auto;
@@ -159,8 +167,12 @@ figure{
 	padding: 2px;	
 }
 
-#gallery-space{
-	margin-top: 600px;
+figcaption{
+	margin-bottom: 50px;
+}
+
+#gallery-info{
+	text-align: justify;
 }
 
 /*contact page*/
@@ -208,36 +220,62 @@ input#submit-button{
 	border: none;	
 }
 
+#form-info{
+	margin-bottom: 40px;
+}
+
+#form-margin{
+	margin-bottom: 50px;
+}
+
 /*about page*/
 #about-me{
-	float: left;
-	width: 250px;
-	margin-left: 300px;
-	margin-right: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
+
+.about-me-essay{
+	position: relative;
+	width: 275px;
 	text-align: justify;
 }
 
 #about-photo{
-	width: 400px;
-	float: left;
+	float: right;
+	margin-top: -745px;
 }
 
 #important{
-	position: relative;
-	top: 8px;
-	left: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 25px;
+	width: 230px;
+	line-height: 20px;
+	font-size: .8em;
 	font-family: "Cardo", serif;
 	color: #444444;
 }
 
 #about-space{
-	margin-top: 1030px;
+	margin-bottom: 160px;
 }
 
 /*resume page*/
 #resume{
-	margin-top: -65px;
-	margin-bottom: 85px;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+
+#resume-photo{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+#resume a{
+	margin-left: 175px;
 }
 
 /*sculpture pages*/
@@ -393,7 +431,7 @@ input#submit-button{
 }
 
 /*----------------------------*/
-/*------- TRANSITIONS --------*/
+/*-------- ANIMATIONS --------*/
 /*----------------------------*/
 
 .bounce{
@@ -406,10 +444,6 @@ input#submit-button{
     animation-name: bounce;
     animation-duration: 2s;
 }
-
-/*----------------------------*/
-/*-------- ANIMATIONS --------*/
-/*----------------------------*/
 
 @-moz-keyframes bounce {
 	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}

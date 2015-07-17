@@ -37,20 +37,27 @@ h1,h2,h3,h4,h5,h6{
 
 /* Main Navigation Style */
 #mainnav{
-	
+text-align: center;
 }
 #mainnav ul{
 
 }
 #mainnav li{
-
+	display: inline;
+	font-family: 'Cardo', serif;
+	letter-spacing: 3px;
+	font-size: 1.2em;
+	color: #ffffff;
+	padding: 30px;	
 }
 #mainnav a:link{
-	color: #565656;
+	list-style-type: none;
+	text-decoration: none;
+	color: #339999;
 	/* other styles */
 }
 #mainnav a:visited{
-	color: #565656;
+	color: #339999;
 	/* other styles */
 }
 #mainnav a:hover{
@@ -58,22 +65,31 @@ h1,h2,h3,h4,h5,h6{
 	/* other styles */
 }
 #mainnav a:active{
-	color: #565656;
+	color: #339999;
 	/* other styles */
 }
 
 
 /* Secondary Navigation Style */
 #secondnav{
-
+	font-size: .8em;
+	position: relative;
+	background-color: black;
+	opacity: 0.6;
+	padding: 10px;
+	margin-bottom: -30px;
 }
 #secondnav ul{
-
+text-align: center;
 }
 #secondnav li{
-
+	display: inline;
+	padding: 10px;
+	bottom: 0;
 }
 #secondnav a:link{
+	list-style-type: none;
+	text-decoration: none;
 	color: #565656;
 	/* other styles */
 }
@@ -100,7 +116,10 @@ h1,h2,h3,h4,h5,h6{
 
 /* True for all headings */
 h1, h2, h3 ,h4, h5, h6{
-	color: #565656;
+	letter-spacing: 1px;
+	color: #339999;
+	font-family: 'Cardo' , serif;
+	letter-spacing: 3px;
 }
 
 
@@ -132,78 +151,92 @@ h6{
 
 /* List Styles */
 ul{
-
+	list-style-type: none;
+	text-decoration: none;
+	color: #339999;
 }
 ul li{
-
+	list-style-type: none;
+	text-decoration: none;
+	color: #339999;
 }
 
 ol{
-
+	list-style-type: none;
+	text-decoration: none;
+	color: #339999;
 }
 ol li{
-
+	list-style-type: none;
+	text-decoration: none;
+	color: #339999;
 }
 
 
 /* Non-Navigational Link Styles */
 /* This is for all default links on your page */
 a:link{
-
+	list-style-type: none;
+	text-decoration: none;
+	color: #339999;
 }
 a:visited{
-
+	list-style-type: none;
+	text-decoration: none;
+	color: #339999;
 }
 a:hover{
-
+	list-style-type: none;
+	text-decoration: none;
+	color: #339999;
 }
 a:active{
-
+	list-style-type: none;
+	text-decoration: none;
+	color: #339999;
 }
 
 /* This is for secondary link styles (possibly in your footer, etc) */
 .linkstyle2 a:link{
-
+	list-style-type: none;
+	text-decoration: none;
+	color: 339999;
 }
 .linkstyle2 a:visited{
-
+	list-style-type: none;
+	text-decoration: none;
+	color: 339999;
 }
 .linkstyle2 a:hover{
-
+	list-style-type: none;
+	text-decoration: none;
+	color: 339999;
 }
 .linkstyle2 a:active{
-
+	list-style-type: none;
+	text-decoration: none;
+	color: 339999;
 }
 
 
 /* Paragraph Styles */
 p{
-	color: #565656;
+	color: #339999;
 	/* Other paragraph styles */
 }
 
 
 /* Figure and Figcaption Styles */
+
 figure{
-
+	margin: 0px;
+	padding: 2px;	
 }
-figure img{
-
+figure img{	
 }
 figcaption{
-
+	margin-left: 45px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* ------------------------------------- */
 /* --------- Style Guide CSS ----------- */
