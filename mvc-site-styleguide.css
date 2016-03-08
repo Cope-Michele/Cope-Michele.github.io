@@ -8,7 +8,7 @@ body{
 	font-size: 1em;
     font-weight: 100;
 	letter-spacing: 1px;
-	color: #339999;
+	color: #2C3E50;
 	text-align: center;
 	min-width: 850px;
 	margin-top: 40px;
@@ -23,7 +23,7 @@ body.sub-gallery{
 	font-size: 1em;
     font-weight:100;
 	letter-spacing: 1px;
-	color: #339999;
+	color: #2C3E50;
 	text-align: center;
 	min-width: 850px;
 	margin-top: 40px;
@@ -42,7 +42,7 @@ h1,h2,h3,h4,h5,h6{
 a {
 	list-style-type: none;
 	text-decoration: none;
-	color: #999999;
+	color: #666666;
 }
 
 menu a:link {
@@ -51,38 +51,38 @@ menu a:link {
 }
 
 menu a:visited {
-	color: #999999;
-}
-
-menu a:hover {
 	color: #666666;
 }
 
+menu a:hover {
+	color: #2C3E50;
+}
+
 menu a:active {
-	color: #999999;
+	color: #666666;
 }
 
 .sub-gallery a {
 	list-style-type: none;
 	text-decoration: none;
-	color: #339999;
+	color: #2C3E50;
 }
 
 .sub-gallery menu a:link {
-	color: #339999;
+	color: #2C3E50;
 	text-decoration: none;
 }
 
 .sub-gallery menu a:visited {
-	color: #339999;
+	color: #2C3E50;
 }
 
 .sub-gallery menu a:hover {
-	color: #666666;
+	color: #2C3E50;
 }
 
 .sub-gallery menu a:active {
-	color: #339999;
+	color: #2C3E50;
 }
 
 /*----------------------------*/
@@ -104,7 +104,7 @@ header{
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 3px;
 	font-size: 1.2em;
-	color: #999999;
+	color: #F64747;
 	padding: 30px;
 }
 
@@ -196,7 +196,7 @@ figcaption{
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #FFFFFF;
-	color: #339999;
+	color: #F64747;
 	font-size: 1.2em;
 	letter-spacing: 1.5px;
 	text-align: left;
@@ -224,7 +224,7 @@ input#submit-button{
 	height: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #339999;
+	background-color: #F64747;
 	color: white;
 	border: none;	
 }
@@ -262,7 +262,7 @@ input#submit-button{
 	width: 230px;
 	line-height: 20px;
 	font-size: .8em;
-	font-family: "Cardo", serif;
+	font-family: "Raleway", serif;
 	color: #444444;
 }
 
