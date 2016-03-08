@@ -42,47 +42,47 @@ h1,h2,h3,h4,h5,h6{
 a {
 	list-style-type: none;
 	text-decoration: none;
-	color: #666666;
+	color: #F5AB35;
 }
 
 menu a:link {
-	color: #999999;
+	color: #F5AB35;
 	text-decoration: none;
 }
 
 menu a:visited {
-	color: #666666;
+	color: #F5AB35;
 }
 
 menu a:hover {
-	color: #2C3E50;
+	color: #666666;
 }
 
 menu a:active {
-	color: #666666;
+	color: #F5AB35;
 }
 
 .sub-gallery a {
 	list-style-type: none;
 	text-decoration: none;
-	color: #2C3E50;
+	color: #F5AB35;
 }
 
 .sub-gallery menu a:link {
-	color: #2C3E50;
+	color: #F5AB35;
 	text-decoration: none;
 }
 
 .sub-gallery menu a:visited {
-	color: #2C3E50;
+	color: #F5AB35;
 }
 
 .sub-gallery menu a:hover {
-	color: #2C3E50;
+	color: #F5AB35;
 }
 
 .sub-gallery menu a:active {
-	color: #2C3E50;
+	color: #F5AB35;
 }
 
 /*----------------------------*/
@@ -96,16 +96,19 @@ header{
 .header-nav{
 	width: 100px;
 	position: fixed;
+	margin-top: 200px;
 }
 
 .header-nav li{
 	display: list-item;
 	list-style-type: none;
 	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
 	letter-spacing: 3px;
-	font-size: 1.2em;
-	color: #F64747;
-	padding: 30px;
+	font-size: .8em;
+	color: #F5AB35;
+	padding: 25px;
 }
 
 /* Navigation for Subpages */
@@ -146,8 +149,8 @@ footer p{
 
 /*homepage*/
 #logo{
-	margin-top: 20px;
-	margin-bottom: 100px;
+	margin-top: 125px;
+	margin-bottom: 175px;
 }
 
 /*subpage-navigation*/
@@ -196,7 +199,7 @@ figcaption{
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #FFFFFF;
-	color: #F64747;
+	color: #F5AB35;
 	font-size: 1.2em;
 	letter-spacing: 1.5px;
 	text-align: left;
@@ -224,7 +227,7 @@ input#submit-button{
 	height: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #F64747;
+	background-color: #F5AB35;
 	color: white;
 	border: none;	
 }
