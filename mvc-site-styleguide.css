@@ -90,8 +90,14 @@ header{
 	margin-bottom: 60px;
 }
 
+.header-nav{
+	width: 100px;
+	position: fixed;
+}
+
 .header-nav li{
-	display: inline;
+	display: list-item;
+	list-style-type: none;
 	font-family: 'Cardo', serif;
 	letter-spacing: 3px;
 	font-size: 1.2em;
