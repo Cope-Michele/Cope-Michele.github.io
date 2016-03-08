@@ -249,13 +249,15 @@ input#submit-button{
 
 .about-me-essay{
 	position: relative;
-	width: 275px;
+	width: 400px;
 	text-align: justify;
+    margin-left: -45px;
 }
 
 #about-photo{
-	float: right;
+	position: relative;
 	margin-top: -745px;
+    margin-left: 425px;
 }
 
 #important{
@@ -270,7 +272,7 @@ input#submit-button{
 }
 
 #about-space{
-	margin-bottom: 160px;
+	margin-bottom: 0px;
 }
 
 /*resume page*/
