@@ -3,9 +3,10 @@
 /*----------------------------*/
 
 body{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	background-color: #FFFFFF;
 	font-size: 1em;
+    font-weight: 100;
 	letter-spacing: 1px;
 	color: #339999;
 	text-align: center;
@@ -17,9 +18,10 @@ body{
 }
 
 body.sub-gallery{
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	background-color: #ffffff;
 	font-size: 1em;
+    font-weight:100;
 	letter-spacing: 1px;
 	color: #339999;
 	text-align: center;
@@ -31,7 +33,8 @@ body.sub-gallery{
 }
 
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Cardo' , serif;
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 	letter-spacing: 3px;
 }
 
