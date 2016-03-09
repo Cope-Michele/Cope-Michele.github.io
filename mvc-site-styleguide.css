@@ -158,7 +158,8 @@ footer p{
 	width: 700px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 30px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 #gallery-nav{
@@ -182,8 +183,11 @@ figcaption{
 }
 
 /*contact page*/
-#form-space{
-	margin-top: 60px;
+#form-info{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #2C3E50;
+	color: #999999;
 }
 
 #contact-form{
@@ -192,7 +196,7 @@ figcaption{
 	padding: 60px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #FFFFFF;
+	background-color: #2C3E50;
 	color: #F5AB35;
 	font-size: 1.2em;
 	letter-spacing: 1.5px;
@@ -205,6 +209,7 @@ input{
 	display:block;
 	border: 1px solid #777777;
 	height: 20px;
+	background-color: #2C3E50;
 }
 
 textarea{
@@ -212,6 +217,7 @@ textarea{
 	display:block;
 	border: 1px solid #777777;
 	height: 200px;
+	background-color: #2C3E50;
 }
 
 input#submit-button{
@@ -224,14 +230,6 @@ input#submit-button{
 	background-color: #F5AB35;
 	color: white;
 	border: none;	
-}
-
-#form-info{
-	margin-bottom: 40px;
-}
-
-#form-margin{
-	margin-bottom: 50px;
 }
 
 /*about page*/
