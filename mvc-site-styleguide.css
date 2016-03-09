@@ -132,8 +132,7 @@ header{
 footer{
 	font-size: .8em;
 	position: relative;
-	background-color: black;
-	opacity: 0.2;
+	background-color: #FFFFFF;
 	padding: 10px;
 	margin-bottom: -30px;
 }
