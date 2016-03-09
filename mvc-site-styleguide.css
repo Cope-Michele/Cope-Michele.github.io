@@ -103,9 +103,9 @@ header{
 	display: list-item;
 	list-style-type: none;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
+	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	letter-spacing: 3.5px;
 	font-size: .8em;
 	color: #F5AB35;
 	padding: 25px;
