@@ -440,6 +440,7 @@ input#submit-button{
 	margin-bottom: 15px;
 	margin-right: 20px;
 	float: left;
+    width: 25%;
 }
 
 #peter-normal{
@@ -447,6 +448,7 @@ input#submit-button{
 	margin-bottom: 15px;
 	margin-right: 20px;
 	float: left;
+    width: 25%;
 }
 
 #beauty-lit{
@@ -454,6 +456,7 @@ input#submit-button{
 	margin-bottom: 15px;
 	margin-right: 20px;
 	float: left;
+    width: 25%;
 }
 
 #beauty-normal{
@@ -461,6 +464,7 @@ input#submit-button{
 	margin-bottom: 15px;
 	margin-right: 20px;
 	float: left;
+    width: 25%;
 }
 
 #fine-art-space{
