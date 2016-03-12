@@ -435,6 +435,34 @@ input#submit-button{
 	margin-top: 100px;
 }
 
+#peter-lit{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	float: left;
+}
+
+#peter-normal{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	float: left;
+}
+
+#beauty-lit{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	float: left;
+}
+
+#beauty-normal{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	float: left;
+}
+
 #fine-art-space{
 	margin-bottom: 120px;
 }
