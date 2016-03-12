@@ -15,7 +15,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	bottom: 0;
-    min-width: 950px;
+    min-width: 1300px;
 }
 
 body.sub-gallery{
@@ -110,6 +110,14 @@ header{
 	font-size: .8em;
 	color: #F5AB35;
 	padding: 25px;
+}
+
+#mini-logo {
+    height: 60px;
+    position: fixed;
+    left: 95px;
+    top: 190px;
+    display: none;
 }
 
 /* Navigation for Subpages */
@@ -464,5 +472,7 @@ keyframes bounce {
   40% {transform: translateY(-30px);}
   60% {transform: translateY(-15px);}
 }
+
+
 
 
