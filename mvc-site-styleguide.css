@@ -175,6 +175,14 @@ footer p{
 	margin-bottom: 100px;
 }
 
+#gallery-page h2{
+  color: #2C3E50;
+	padding-bottom: 50px; 
+	position: relative;
+	width: 400px;
+	margin-left: 300px;
+}
+
 #gallery-nav{
 	width: 670px;
 	margin-left: auto;
@@ -203,6 +211,14 @@ figcaption{
 	margin-bottom: 100px;
 }
 
+#store h2{
+  color: #2C3E50;
+	padding-bottom: 50px; 
+	position: relative;
+	width: 400px;
+	margin-left: 300px;
+}
+
 #store-nav img{
 	width: 300px;
 }
@@ -213,6 +229,14 @@ figcaption{
 	padding-bottom: 100px;
 	background-color: #2C3E50;
 	color: #999999;
+}
+
+#form-info h2{
+  color: #2C3E50;
+	padding-bottom: 50px; 
+	position: relative;
+	width: 400px;
+	margin-left: 300px;
 }
 
 #contact-form{
