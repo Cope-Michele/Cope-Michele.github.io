@@ -195,6 +195,22 @@ figcaption{
 	text-align: justify;
 }
 
+#store{
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: #FFF;
+}
+
+#store-nav figure {
+margin-left: 500px;
+}
+#store-nav img{
+	width: 300px;
+}
+
 /*contact page*/
 #form-info{
 	padding-top: 100px;
