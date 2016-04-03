@@ -481,40 +481,30 @@ input#submit-button{
 	margin-top: 100px;
 }
 
+#fine-art-space{
+	margin-bottom: 120px;
+}
+
+/*----store----*/
+
 #peter-lit{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-right: 20px;
-	float: left;
-    width: 35%;
+  width: 50%;
+	margin-bottom: 50px;
 }
 
 #peter-normal{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-right: 20px;
-	float: left;
-    width: 35%;
+  width: 50%;
+	margin-bottom: 50px;
 }
 
 #beauty-lit{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-right: 20px;
-	float: left;
-    width: 35%;
+  width: 50%;
+	margin-bottom: 50px;
 }
 
 #beauty-normal{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-right: 20px;
-	float: left;
-    width: 35%;
-}
-
-#fine-art-space{
-	margin-bottom: 120px;
+  width: 50%;
+	margin-bottom: 50px;
 }
 
 /*----------------------------*/
