@@ -94,10 +94,10 @@ header{
 	margin-bottom: 60px;
 }
 
-header h4{
+#site-title{
   color: #2C3E50;
 	padding-bottom: 50px; 
-	position: relative;
+	position: fixed;
 	width: 400px;
 	margin-left: 300px;
 }
