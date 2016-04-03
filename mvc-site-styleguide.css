@@ -188,7 +188,7 @@ footer p{
 	padding-bottom: 50px; 
 	position: relative;
 	width: 400px;
-	margin-left: 300px;
+    text-align: center;
 }
 
 #gallery-nav{
@@ -224,7 +224,7 @@ figcaption{
 	padding-bottom: 50px; 
 	position: relative;
 	width: 400px;
-	margin-left: 300px;
+	text-align: center;
 }
 
 #store-nav img{
@@ -244,7 +244,7 @@ figcaption{
 	padding-bottom: 50px; 
 	position: relative;
 	width: 400px;
-	margin-left: 300px;
+	text-align: center;
 }
 
 #contact-form{
