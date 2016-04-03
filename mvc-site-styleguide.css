@@ -95,11 +95,10 @@ header{
 }
 
 #site-title{
-  color: #2C3E50;
-	padding-bottom: 50px; 
-	position: fixed;
-	width: 400px;
-	margin-left: 300px;
+position: relative;
+	top: -230px;
+	left: -45px;
+	color: #F5AB35
 }
 
 .header-nav{
