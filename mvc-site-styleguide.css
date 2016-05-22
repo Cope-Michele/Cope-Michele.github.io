@@ -98,7 +98,7 @@ header{
 position: relative;
 	top: -230px;
 	left: -45px;
-	color: #F5AB35
+	color: #F5AB35;
 }
 
 .header-nav{
@@ -507,6 +507,76 @@ input#submit-button{
 	margin-bottom: 50px;
 }
 
+/*----cit261----*/
+#cit261{
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+    text-align: left;
+}
+
+#cit261 p{
+    font-size: .8em;
+    color: gray;
+}
+
+#cit261 h3{
+    color: #F5AB35;
+}
+
+header{
+	margin-bottom: 60px;
+}
+
+.cit-menu{
+	width: 100px;
+	position: fixed;
+	margin-top: 200px;
+}
+
+.cit-menu li{
+	display: list-item;
+	list-style-type: none;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;
+	font-size: .8em;
+	color: #F5AB35;
+	padding: 25px;
+}
+
+#mini-logo {
+    height: 60px;
+    position: fixed;
+    left: 95px;
+    top: 190px;
+    display: none;
+}
+
+#hello-box {
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    text-align: center;
+    
+    /* Rotate div 
+    -ms-transform: rotate(7deg); /* IE 9 
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera 
+    transform: rotate(7deg); */
+}
+
+#hello-box p{
+    padding-top: 95px;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
 /*----------------------------*/
 /*-------- ANIMATIONS --------*/
 /*----------------------------*/
@@ -520,6 +590,41 @@ input#submit-button{
     -o-animation-duration: 2s;
     animation-name: bounce;
     animation-duration: 2s;
+}
+
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+  40% {-moz-transform: translateY(-30px);}
+  60% {-moz-transform: translateY(-15px);}
+}
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+  40% {-webkit-transform: translateY(-30px);}
+  60% {-webkit-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+  40% {-o-transform: translateY(-30px);}
+  60% {-o-transform: translateY(-15px);}
+}
+
+keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
+
+#hello-box .bounce{
+    -moz-animation-name: bounce;
+    -moz-animation-duration: 5s;	
+	-webkit-animation-name: bounce;
+    -webkit-animation-duration: 5s;
+	-o-animation-name: bounce;
+    -o-animation-duration: 5s;
+    animation-name: bounce;
+    animation-duration: 5s;
 }
 
 @-moz-keyframes bounce {
