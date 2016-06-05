@@ -1,21 +1,3 @@
-//JSON objects containing image information
-var imageList = [
-    {
-        "url": "images/about-me-hubby.jpg",
-        "name": "Me and Mack"
-    },
-    {
-        "url": "images/piggy-back.jpg",
-        "name": "Family Piggyback Ride"
-    },
-    {
-        "url": "images/peter-pan-lit.jpg",
-        "name": "Peter Pan Portrait"
-    }
-]
-
-
-
 function getRandomIntInclusive(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -30,8 +12,19 @@ function loadRandomImage() {
     request.onreadystatechange = function() {
         
         //if the request is done (readyState 4) and HTTP status is 200 (successful)
-        if (request.readyState == 4) {
-            document.getElementById("example-image-container").innerHTML = request.responseText;
+        if (request.readyState === 4) {
+            
+            //the text retrieved in the request is a string representing a JSON object
+            var response = JSON.parse(request.responseText);
+            
+            // The array we are retrieving has 3 entries, so get a random number between 
+            // 0 and 2 so we can chose one of the entries at random
+            var randomNumber = getRandomIntInclusive(0,2);
+            
+            //prepare HTML image to show
+            var imagetag = '<img style="width:400px" src="' + response[randomNumber].url + '"/>';
+            
+            document.getElementById("example-image-container").innerHTML = imagetag;
         }
     };
       
