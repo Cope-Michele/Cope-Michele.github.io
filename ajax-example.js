@@ -21,10 +21,26 @@ function loadRandomImage() {
             // 0 and 2 so we can chose one of the entries at random
             var randomNumber = getRandomIntInclusive(0,2);
             
-            //prepare HTML image to show
-            var imagetag = '<img style="width:400px" src="' + response[randomNumber].url + '"/>';
+            //get url and check if it is the same as the last url
+            var lastUrl = localStorage.getItem("last-url");
             
-            document.getElementById("example-image-container").innerHTML = imagetag;
+            //if there is no "last url" javascript will skip over this
+            if (lastUrl) {
+            
+                //if the last url is the same random number as the one currently 
+                //chosen by the imagetag then pick a new random number
+                while(lastUrl === response[randomNumber].url){
+                    randomNumber = getRandomIntInclusive(0,2);    
+                }
+            }
+            
+            //prepare HTML image to show
+            var imageTag = '<img style="width:400px" src="' + response[randomNumber].url + '"/>';
+            
+            document.getElementById("example-image-container").innerHTML = imageTag;
+            
+            //saves the url that was used last into local storage            
+            localStorage.setItem("last-url",response[randomNumber].url);
         }
     };
       
