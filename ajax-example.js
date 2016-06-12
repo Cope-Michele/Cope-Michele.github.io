@@ -21,14 +21,17 @@ function loadRandomImage() {
             // 0 and 2 so we can chose one of the entries at random
             var randomNumber = getRandomIntInclusive(0,2);
             
-            //get url and check if it is the same as the last url
+            //get url using the randomNumber and response variables
+            //and check if it is the same as the last url
+            
+            //get the last url stored in local storage
             var lastUrl = localStorage.getItem("last-url");
             
             //if there is no "last url" javascript will skip over this
             if (lastUrl) {
             
-                //if the last url is the same random number as the one currently 
-                //chosen by the imagetag then pick a new random number
+                //if the last url displayed is the same as the url that has been chosen, 
+                //then we will pick a new randomNumber
                 while(lastUrl === response[randomNumber].url){
                     randomNumber = getRandomIntInclusive(0,2);    
                 }
