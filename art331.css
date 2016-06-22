@@ -1,0 +1,56 @@
+/*----------------------------*/
+/*----------- MAIN -----------*/
+/*----------------------------*/
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Josefin Slab', serif;
+    font-family; 'Poiret One', cursive;
+}
+
+.page-content{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    font-size: 4em;
+    letter-spacing: .15em;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #457575;
+}
+
+#timeline {
+    width: 10px;
+    position: absolute;
+    margin-top: -2400px;
+    margin-left: 500px;
+    height: 2400px;
+    border-left: 2px solid #457575;
+}
+
+#waves {    
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    margin-top: -20px;
+    bottom: 0px;
+}
+
+/*----------------------------*/
+/*---------- FOOTER ----------*/
+/*----------------------------*/
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
