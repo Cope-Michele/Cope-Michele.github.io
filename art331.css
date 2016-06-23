@@ -21,6 +21,7 @@ h1{
     font-size: 4em;
     letter-spacing: .15em;
     text-align: left;
+    margin-left: -200px;
     padding-top: 100px;
     padding-bottom: 100px;
     color: #457575;
@@ -30,7 +31,7 @@ h1{
     width: 10px;
     position: absolute;
     margin-top: -2400px;
-    margin-left: 500px;
+    margin-left: 100px;
     height: 2400px;
     border-left: 2px solid #457575;
 }
