@@ -588,6 +588,7 @@ header{
 }
 
 #ajax button{
+    text-align: center;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: .5px;
