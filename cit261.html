@@ -36,6 +36,21 @@
             
                 <br>
                 <br>
+                <h3>Lesson 11</h3>
+
+                    <p>This week my team had not one, but two versions of the same application! Instead of communicating with the rest of our team two different people have gone ahead and created two versions of the application. I feel really frustrated because I have started to try and clean up the code and css on both apps. I'm also really annoyed because people just keep going ahead and doing their own thing instead of communicating with the rest of the group. I explained to my group multiple times this week that I would need to go out of town for a funeral and to please include me on group discussions so that I would have an opportunity to figure out how I could best contribute to the group application, however this did not happen. I've tried to explain my concerns about the lack of planning to my team politely, but I feel that this does nothing to solve the problems at hand. I've ended up telling my team that I no one else is allowed to work on certain aspects of the application so that I am able to make a real contribution in some way. So far I feel all of the coding contributions I have made have been reworked or abandoned because of other people who seem to refuse to communicate.</p>
+            
+                <h3>Lesson 10</h3>
+
+                    <p>This week I created a simple wireframe for our group project to present at our team meeting. Unknown to me at the time was that another member of our team had already started coding our project. This really worried me because if people just take off and start working on things, not everyone on our team will have a chance to work together to form this app. I didn't feel we were ready to start coding yet because we hadn't created a solid plan for who was going to be responsible for what. I decided to sign up this week to start manipulating the CSS and JS on the app that has been started. My worry is that when people start acting without explaining and planning first then we will end up doing a lot of work that is unneccessary and creates more problems than it solves.</p>
+            
+                <h3>Lesson 9</h3>
+
+                    <p>This week I wrote simple proposals for our group project in hopes of getting the ball rolling so that others could understand and contribute to what we needed to create for our project. In our team meeting we added more details together of what to add in our actual project. The hope is that next week we can start coding our actual project once we have discussed our group proposals. We also had a member of our team set up a simple index page on his website to host our project. I also explained for what I think is a third time, how to use Github to upload code to our team repository, this is frustrating for me because no one asks questions when they don't understand something, and it causes more delays.</p>
+            
+                <h3>Lesson 8</h3>
+
+                    <p>This week was pretty hectic. I don't feel like our team is ready to build this app and I'm getting a bit frustrated because I don't feel like our communication is working. This week I tried to set up an assignment sheet for our group proposals, but only one other member of our team seems to understand how to work together on a team Google document. However when this idea was put forth and discussed in our team meeting no one had any objections or asked any questions about working together on a google Doc. I'm worried that this lack of effort in communicating is going to really effect our project.</p>
             
                 <h3>Lesson 7</h3>
 
@@ -81,50 +96,47 @@
         
             <div id="JSON">
                 <h2>JSON</h2>
-                
                 <p>My JSON example is entertwined with my AJAX example below. The AJAX example uses javascript and AJAX to grab a random image from a JSON object and display it to the user.</p>
+                
             </div>
             
             <div id="JavaScript">
                 <h2>Javascript</h2>
-                
                 <p>My JavaScript example is entertwined with my AJAX example below. The AJAX Example uses javascript and AJAX to grab a random image from a JSON object and display it to the user.</p>
                 
             </div>
             
             <div id="DOM">
                 <h2>DOM</h2>
+                <p>I've used DOM Manipulation to add the images from my JSON file into my AJAX to display. My Local Storage than insures that the same image never displays twice in a row. </p>
             </div>
             
-            <div id="CSS-Transitions">
+            <div id="CSS Class Manipulation">
                 <h2>CSS-Transitions</h2>
+                <p>My JavaScript file applies a new class stylization to my random image button after the initial click.</p>
             </div>
             
             <div id="CSS-Animations">
-                <h2>CSS-Animations</h2>
-                
-                <p>Currently only works on page refresh.</p>
-                
-                <div class="bounce" id="hello-box">
-                    <p>Hello</p>
-                </div>
+                <h2>CSS-Animations & Transformations</h2>
+                Images bounce on click of "random image button".
+
             </div>
             
             <div id="Local-Storage">
                 <h2>Local-Storage</h2>
-                My AJAX example below uses local storage to insure that the same image is never displayed to the user twice in a row.
+                <p>My AJAX example below uses local storage to insure that the same image is never displayed to the user twice in a row.</p>
                 
             </div>
             
              <div id="AJAX">
                 <h2>AJAX</h2>
-                 
-                <p>I've used AJAX to load a random image from a JSON object. I have not yet corrected my function to make sure the image changes every time, so on some clicks it might appear that a new random image is not loading because my function might grab the same random number multiple times in a row. Click again to see if it changes!</p>
-                 
-                <button type="button" onclick="loadRandomImage()">Load random image</button>
-                <div id="example-image-container">
-   
-                </div>
+                <p>I've used AJAX to load a random image that is loaded from my JSON file pulled through DOM manipulation.</p>
+                
+                 <div id="example-container">
+                     <p>Double click on the button below to see!</p>
+                    <div id="example-image-container" class="bounce"></div>
+                    <button id="the-special-button" type="button" onclick="loadRandomImage()">Load a random image</button>
+                 </div>
                  
             </div>
         

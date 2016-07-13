@@ -37,17 +37,43 @@ function loadRandomImage() {
                 }
             }
             
-            //prepare HTML image to show
-            var imageTag = '<img style="width:400px" src="' + response[randomNumber].url + '"/>';
-            
-            document.getElementById("example-image-container").innerHTML = imageTag;
+            addImage(response, randomNumber);
             
             //saves the url that was used last into local storage            
             localStorage.setItem("last-url",response[randomNumber].url);
+            
+            bounce();
         }
+        
     };
-      
-    
+        
     request.open("GET", "image-grab.txt", true);
     request.send();
+    
+    //restyle the random image button once it has been clicked
+    var newClass = document.createAttribute("class");
+    newClass.value = "image-button";
+    var button = document.getElementById("the-special-button");
+    button.setAttributeNode(newClass);
 }
+
+//prepare HTML image to show
+//create function to add an image element
+function addImage(response, randomNumber) {
+    //create img element
+    var newImg = document.createElement("img");
+    //add img source attribute to element
+    var srcAtt = document.createAttribute("src");
+    srcAtt.value = response[randomNumber].url;
+    newImg.setAttributeNode(srcAtt);
+    //add new image element with it's content to the DOM
+    var newDiv = document.getElementById("example-image-container");
+    //add the new image to the bottom of the image container div
+    newDiv.appendChild(newImg);
+} 
+
+//animate image to bounce
+function bounce() {
+    document.getElementById('example-image-container').className = "bounce";
+}
+

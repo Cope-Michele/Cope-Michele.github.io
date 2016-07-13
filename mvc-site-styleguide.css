@@ -522,7 +522,7 @@ input#submit-button{
 }
 
 #cit261 h3{
-    color: #F5AB35;
+    color: #F5AB35
 }
 
 header{
@@ -555,26 +555,35 @@ header{
     display: none;
 }
 
-#hello-box {
-    margin-top: 200px;
+#example-container{
+    width: 800px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 200px;
-    height: 200px;
-    background-color: lightblue;
     text-align: center;
-    
-    /* Rotate div 
-    -ms-transform: rotate(7deg); /* IE 9 
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera 
-    transform: rotate(7deg); */
 }
 
-#hello-box p{
-    padding-top: 95px;
-    color: white;
+#example-container button{
+    border-radius: 4px;
+    border: none;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-size: 1em;
+    padding: 10px;
+}
+
+#example-image-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.image-button{
+    background-color: #F5AB35;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 10px;
 }
 
 /*----------------------------*/
