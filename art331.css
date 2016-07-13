@@ -5,13 +5,12 @@
 body{
     margin-left: auto;
     margin-right: auto;
-    min-width: 800px;
+    max-width: 1280px;
     font-family: 'Josefin Slab', serif;
     font-family; 'Poiret One', cursive;
 }
 
 .page-content{
-    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -23,56 +22,86 @@ h1{
     text-align: center;
     letter-spacing: .15em;
     margin-top: 100px;
-    color: #457575;
+    color: #BB2E6D;
 }
 
 h3{
-    width: 150px;
-    position: relative;
     text-align: center;
     font-family: 'Josefin Slab', serif;
     font-weight: 500;
     font-size: 1em;
     text-transform: uppercase;
     padding-top: 120px;
-    margin-left: auto;
-    margin-right: auto;
     color: #457575;
     z-index: 10;
 }
 
-#years {
-    width: 400px;
+#timeline {
+    margin-top: 100px;
     position: relative;
-    left: -100px;
+    width: 850px;
 }
 
-#timeline {
+#line {
     width: 10px;
-    position: absolute;
-    margin-top: -4250px;
-    margin-left: 300px;
-    height: 4250px;
+    position: relative;
+    margin-top: -6325px;
+    margin-left: 425px;
+    height: 5872px;
     border-left: 2px solid #457575;
 }
 
-.circle{
-    height: 175px;
-    width: 175px;
-    border-radius: 50%;
+.years{
+    width: 400px;
     position: relative;
-    top: -140px;
+    margin: 0;
+}
+
+h3.years{
+    width: 175px;
+    left: 100px;
+}
+
+#circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
     background-color: #E2E8E3;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 1;
+    position: relative;
+    left: 88px;
+    top: -120px;
 }
 
 #cover-image{
     margin-top: -20px;
     width: 100%;
+    margin-bottom: 100px;
 }
+
+.oval{
+    height: 200px;
+    width: 715px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    position: relative;
+    right: -565px;
+    top: -498px;
+    background-color: #E2E8E3;
+    z-index: 1
+}
+
+.icons{
+    display: inline-block;
+    width: 175px;
+    position: relative;
+    right: -600px;
+    top: -308px;
+    padding-left: 30px;
+    padding-right: 15px;
+    z-index: 10;
+}
+
+
 
 /*----------------------------*/
 /*----------- 1940 -----------*/
