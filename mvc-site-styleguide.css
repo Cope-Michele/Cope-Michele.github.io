@@ -586,6 +586,36 @@ header{
     padding: 10px;
 }
 
+#example-image-container{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#ajax button{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    background-color: #2C3E50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+#ajax button:hover{
+    background-color: #F5AB35;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
 /*----------------------------*/
 /*-------- ANIMATIONS --------*/
 /*----------------------------*/
