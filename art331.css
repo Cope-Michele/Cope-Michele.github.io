@@ -36,8 +36,8 @@ h3{
     z-index: 10;
 }
 
-#timeline {
-    margin-top: 100px;
+#time-line {
+    margin-top: 150px;
     position: relative;
     width: 850px;
 }
@@ -45,9 +45,9 @@ h3{
 #line {
     width: 10px;
     position: relative;
-    margin-top: -6325px;
-    margin-left: 425px;
-    height: 5872px;
+    margin-top: -5340px;
+    margin-left: 375px;
+    height: 5340px;
     border-left: 2px solid #457575;
 }
 
@@ -72,43 +72,203 @@ h3.years{
     top: -120px;
 }
 
-#cover-image{
-    margin-top: -20px;
-    width: 100%;
-    margin-bottom: 100px;
+#dark-circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #457575;
+    position: relative;
+    left: 364px;
+    top: 205px;
 }
 
-.oval{
-    height: 200px;
-    width: 715px;
-    border-top-left-radius: 100px;
-    border-bottom-left-radius: 100px;
+#dotted-circle{
+    height: 375px;
+    width: 375px;
+    margin: auto;
+    text-align: center;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: #BB2E6D;
+    font-weight: 700;
+    line-height: 55px;
+    border-radius: 50%;
+    border: 4px dotted #457575;
     position: relative;
-    right: -565px;
-    top: -498px;
-    background-color: #E2E8E3;
-    z-index: 1
+    color: #BB2E6D;
+    top: 50px;
+    transition: all 0.6s ease 0s;
+    cursor: pointer;
 }
 
-.icons{
-    display: inline-block;
-    width: 175px;
+#dotted-circle p{
+    margin-top: 150px;
+}
+
+#dotted-circle:hover{
+    border: 4px dotted #E2E8E3;
+    background-color: #BB2E6D;
+    color: #E2E8E3;
+}
+
+#tiny{
     position: relative;
-    right: -600px;
-    top: -308px;
-    padding-left: 30px;
-    padding-right: 15px;
+    top: -155px;
+    font-size: .4em;
+    text-transform: uppercase;
+}
+
+.modal {
+    display: none;
+    position: relative;
+    z-index: 1;
+    margin-left: 386px;
+    margin-top: -363px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #457575;
+}
+
+span.close{
+    margin-left: 245px;
+    font-size: 2em;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
     z-index: 10;
 }
 
+#rosie{
+    margin-top: -38px;
+}
 
+#cover-image{
+    margin-top: -20px;
+    width: 100%;
+}
+
+#american-dream {
+    margin: 0px;
+    width: 100%;
+    margin-bottom: -125px;
+}
+
+#rosie-explanation{
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: -100px;
+}
+
+#oval{
+    height: 200px;
+    width: 815px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    position: relative;
+    right: -465px;
+    top: -1180px;
+    background-color: #E2E8E3;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.6s ease 0s;
+    border: none;
+}
+
+#oval:hover {
+    box-shadow: 0 0 5px #555;
+}
+
+.icons{
+    display: inherit;
+    width: 175px;
+    position: relative;
+    right: -525px;
+    top: -326px;
+    margin-right: 0px;
+    z-index: 10;
+}
+
+img#couple.icons {
+    padding: 0px;
+}
+
+img#house.icons {
+    padding: 0px;
+    top: -615px;
+    left: 765px;
+}
+
+img#car.icons {
+    padding: 0px;
+    top: -880px;
+    left: 1025px;
+}
 
 /*----------------------------*/
-/*----------- 1940 -----------*/
+/*---------- decades ---------*/
 /*----------------------------*/
+.nineteenforty, .nineteenfifty, .nineteensixty, .nineteenseventy, .nineteeneighty, .nineteenninety, .twothousand, .twentyten {
+    height: 660px;
+}
 
-.1940 {
-    
+.nineteenforty p {
+    display: inline-block;
+}
+p#couple {
+    position: relative;
+    width: 150px;
+    top: -305px;
+    left: 540px;
+    text-transform: uppercase;
+    color: #BB2E6D;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .25px;
+    line-height: 20px;
+}
+
+p#house {
+    position: relative;
+    width: 150px;
+    top: -592px;
+    left: 790px;
+    text-transform: uppercase;
+    color: #BB2E6D;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .25px;
+    line-height: 20px;
+}
+
+p#car {
+    position: relative;
+    width: 150px;
+    top: -859px;
+    left: 1040px;
+    text-transform: uppercase;
+    color: #BB2E6D;
+    font-size: 1em;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .25px;
+    line-height: 20px;
+}
+
+#stats{
+    position: relative;
+    width: 100%;
+    margin-left: 195px;
+    margin-top: -900px;
+}
+
+#today{
+    position: relative;
+    width: 100%;
+    margin-left: 225px;
+    margin-top: -170px;
 }
 
 /*----------------------------*/
